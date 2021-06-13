@@ -67,23 +67,14 @@
 html {
     box-sizing: border-box;}
 *,
-*::before,
-*::after {
-    box-sizing: inherit;
-    margin: 0;
-    padding: 0;}
+*:before,
+*:after {
+    box-sizing: inherit;}
 body {
     font-family: var(--main-font);
     font-size: 14px;
     background-color: var(--background-color-main);
     color: var(--text-color-dark);}
-    h2, h3 {
-        font-weight: 700;
-    }
-    h1, h2, h3, h4, p {
-        margin-bottom: 0;
-        margin-top: 0;
-    }
     img {
         display: block;
     }
@@ -107,9 +98,6 @@ body {
     }
 /* index.html */
 /* header */
-.header {
-    border-bottom: 1px solid var(--border-bottom-color);
-}
 .header .container {
     display: flex;
     align-items: center;}
