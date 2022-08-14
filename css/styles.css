@@ -1,13 +1,13 @@
 /* roboto-900 - latin_cyrillic */
 @font-face {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: local("Roboto Black"), local("Roboto-Black"),
-    url("../fonts/roboto-v20-latin_cyrillic-900.woff2") format("woff2"),
+  src: local('Roboto Black'), local('Roboto-Black'),
+    url('../fonts/roboto-v20-latin_cyrillic-900.woff2') format('woff2'),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../fonts/roboto-v20-latin_cyrillic-900.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+      url('../fonts/roboto-v20-latin_cyrillic-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 html {
@@ -21,8 +21,8 @@ html {
 }
 
 :root {
-  --primary-font: "Roboto", sans-serif;
-  --secondery-font: "Raleway", sans-serif;
+  --primary-font: 'Roboto', sans-serif;
+  --secondery-font: 'Raleway', sans-serif;
   --primary-text-color: #757575;
   --secondary-text-color: #212121;
   --accent-color: #2196f3;
@@ -223,7 +223,7 @@ img {
 }
 
 .site-nav .link.current::after {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   left: 0;
@@ -309,7 +309,7 @@ img {
       rgba(47, 48, 58, 0.8),
       rgba(47, 48, 58, 0.8)
     ),
-    url("../images/index/img-hero-01.jpg");
+    url('../images/index/img-hero-01.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -381,17 +381,17 @@ img {
   margin-bottom: 0;
 }
 
-/* Exemples */
+/* examples */
 
-.exemples-list {
+.examples-list {
   display: flex;
 }
 
-.exemples-list .item:not(:last-child) {
+.examples-list .item:not(:last-child) {
   margin-right: 30px;
 }
 
-.exemples-list .title {
+.examples-list .title {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -672,12 +672,12 @@ img {
 }
 
 .mailing-submit::after {
-  content: "";
+  content: '';
   width: 24px;
   height: 24px;
   margin-left: 10px;
 
-  background-image: url("../images/footer/mailing-icon.svg");
+  background-image: url('../images/footer/mailing-icon.svg');
 }
 
 /* Modal */
@@ -862,7 +862,7 @@ img {
 .checkbox-input:checked + .checkbox-icon {
   border-color: transparent;
   background-color: #2196f3;
-  background-image: url("../images/index/icon-checked.svg");
+  background-image: url('../images/index/icon-checked.svg');
   background-size: contain;
   background-origin: border-box;
 }

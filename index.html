@@ -105,10 +105,10 @@
         </ul>
       </div>
     </header>
-
+    <!-- index.html -->
+    <!-- sections-main -->
     <main class="page-main">
-      <!-- Hero -->
-
+      <!-- section-hero -->
       <section class="section-hero">
         <div class="container-hero">
           <h1 class="hero-title">
@@ -119,17 +119,19 @@
           <button class="button hero" data-open-modal>Заказать услугу</button>
         </div>
       </section>
-
-      <!-- Feature -->
-
+      <!-- section-advantages -->
       <section class="section">
         <div class="container">
-          <h2 class="visually-hidden">Особенности</h2>
+          <h2 class="visually-hidden">Наши преимущества</h2>
           <ul class="feature-list list">
             <li class="item">
               <div class="icon-wrap">
                 <svg class="icon" width="70" height="70">
-                  <use href="./images/sprite.svg#feature_antenna"></use>
+                  <use
+                    href="./images/sprite.svg#antenna-symbolising-attention-to-detail"
+                    title="Внимание к деталям"
+                    alt="Внимание к деталям"
+                  ></use>
                 </svg>
               </div>
               <h3 class="title">Внимание к деталям</h3>
@@ -141,7 +143,11 @@
             <li class="item">
               <div class="icon-wrap">
                 <svg class="icon" width="70" height="70">
-                  <use href="./images/sprite.svg#feature_clock"></use>
+                  <use
+                    href="./images/sprite.svg#clock-symbolising-punctuality"
+                    title="Пунктуальность"
+                    alt="Пунктуальность"
+                  ></use>
                 </svg>
               </div>
               <h3 class="title">Пунктуальность</h3>
@@ -153,7 +159,11 @@
             <li class="item">
               <div class="icon-wrap">
                 <svg class="icon" width="70" height="70">
-                  <use href="./images/sprite.svg#feature_diagram"></use>
+                  <use
+                    href="./images/sprite.svg#diagram-symbolising-planning"
+                    title="Планирование"
+                    alt="Планирование"
+                  ></use>
                 </svg>
               </div>
               <h3 class="title">Планирование</h3>
@@ -165,7 +175,9 @@
             <li class="item">
               <div class="icon-wrap">
                 <svg class="icon" width="70" height="70">
-                  <use href="./images/sprite.svg#feature_astronaut"></use>
+                  <use
+                    href="./images/sprite.svg#astronaut-symbolising-modern-technologies"
+                  ></use>
                 </svg>
               </div>
               <h3 class="title">Современные технологии</h3>
@@ -177,17 +189,16 @@
           </ul>
         </div>
       </section>
-
-      <!-- Exemples -->
-
+      <!-- section-activities -->
       <section class="section padding-top-none">
         <div class="container">
           <h2 class="section-title">Чем мы занимаемся</h2>
-          <ul class="exemples-list list">
+          <ul class="examples-list list">
             <li class="item relative">
               <img
-                src="./images/index/img-exemples_01.jpg"
-                alt="десктоп"
+                src="./images/index/section-activities/desktop-applications.jpg"
+                title="Десктопные приложения"
+                alt="Десктопные приложения"
                 width="370"
                 height="294"
               />
@@ -195,8 +206,9 @@
             </li>
             <li class="item relative">
               <img
-                src="./images/index/img-exemples_02.jpg"
-                alt="мобильный"
+                src="./images/index/section-activities/mobile-applications.jpg"
+                title="Мобильные приложения"
+                alt="Мобильные приложения"
                 width="370"
                 height="294"
               />
@@ -204,8 +216,9 @@
             </li>
             <li class="item relative">
               <img
-                src="./images/index/img-exemples_03.jpg"
-                alt="компьютер"
+                src="./images/index/section-activities/design-solutions.jpg"
+                title="Дизайнерские решения"
+                alt="Дизайнерские решения"
                 width="370"
                 height="294"
               />
@@ -214,9 +227,7 @@
           </ul>
         </div>
       </section>
-
-      <!-- Team -->
-
+      <!-- section-team -->
       <section class="section">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
@@ -224,8 +235,10 @@
             <li class="item">
               <img
                 class="team-photo"
-                src="./images/index/photo-team_product-designer.jpg"
-                alt="продукт дизайнер"
+                src="./images/index/section-team/product-designer.jpg"
+                lang="en"
+                title="Product Designer"
+                alt="Product Designer"
                 width="270"
                 height="260"
               />
@@ -233,30 +246,74 @@
               <p lang="en" class="text">Product Designer</p>
               <ul class="team-social list">
                 <li class="item">
-                  <a class="button" href="" aria-label="иконка инстаграм">
+                  <a
+                    class="button"
+                    href=""
+                    rel="noreferrer noopener"
+                    target="_blank"
+                    aria-label="Instagram"
+                  >
                     <svg class="button-icon" wigth="20" height="20">
-                      <use href="./images/sprite.svg#team_instagram"></use>
+                      <use
+                        href="./images/sprite.svg#instagram"
+                        lang="en"
+                        title="Instagram"
+                        alt="Instagram"
+                      ></use>
                     </svg>
                   </a>
                 </li>
                 <li class="item">
-                  <a class="button" href="" aria-label="иконка твиттер">
+                  <a
+                    class="button"
+                    href=""
+                    rel="noreferrer noopener"
+                    target="_blank"
+                    aria-label="Twitter"
+                  >
                     <svg class="button-icon" wigth="20" height="20">
-                      <use href="./images/sprite.svg#team_twitter"></use>
+                      <use
+                        href="./images/sprite.svg#twitter-team"
+                        lang="en"
+                        title="Twitter"
+                        alt="Twitter"
+                      ></use>
                     </svg>
                   </a>
                 </li>
                 <li class="item">
-                  <a class="button" href="" aria-label="иконка фейсбук">
+                  <a
+                    class="button"
+                    href=""
+                    rel="noreferrer noopener"
+                    target="_blank"
+                    aria-label="Facebook"
+                  >
                     <svg class="button-icon" wigth="20" height="20">
-                      <use href="./images/sprite.svg#team_facebook"></use>
+                      <use
+                        href="./images/sprite.svg#facebook-team"
+                        lang="en"
+                        title="Facebook"
+                        alt="Facebook"
+                      ></use>
                     </svg>
                   </a>
                 </li>
                 <li class="item">
-                  <a class="button" href="" aria-label="иконка линкедин">
+                  <a
+                    class="button"
+                    href=""
+                    rel="noreferrer noopener"
+                    target="_blank"
+                    aria-label="LinkedIn"
+                  >
                     <svg class="button-icon" wigth="20" height="20">
-                      <use href="./images/sprite.svg#team_linkedin"></use>
+                      <use
+                        href="./images/sprite.svg#linkedin-team"
+                        lang="en"
+                        title="LinkedIn"
+                        alt="LinkedIn"
+                      ></use>
                     </svg>
                   </a>
                 </li>
@@ -265,8 +322,10 @@
             <li class="item">
               <img
                 class="team-photo"
-                src="./images/index/photo-team_frontend-dev.jpg"
-                alt="фронтэнд разработчик"
+                src="./images/index/section-team/frontend-developer.jpg"
+                lang="en"
+                title="Frontend Developer"
+                alt="Frontend Developer"
                 width="270"
                 height="260"
               />
@@ -274,30 +333,74 @@
               <p lang="en" class="text">Frontend Developer</p>
               <ul class="team-social list">
                 <li class="item">
-                  <a class="button" href="" aria-label="иконка инстаграм">
+                  <a
+                    class="button"
+                    href=""
+                    rel="noreferrer noopener"
+                    target="_blank"
+                    aria-label="Instagram"
+                  >
                     <svg class="button-icon" wigth="20" height="20">
-                      <use href="./images/sprite.svg#team_instagram"></use>
+                      <use
+                        href="./images/sprite.svg#instagram-team"
+                        lang="en"
+                        title="Instagram"
+                        alt="Instagram"
+                      ></use>
                     </svg>
                   </a>
                 </li>
                 <li class="item">
-                  <a class="button" href="" aria-label="иконка твиттер">
+                  <a
+                    class="button"
+                    href=""
+                    rel="noreferrer noopener"
+                    target="_blank"
+                    aria-label="Twitter"
+                  >
                     <svg class="button-icon" wigth="20" height="20">
-                      <use href="./images/sprite.svg#team_twitter"></use>
+                      <use
+                        href="./images/sprite.svg#twitter-team"
+                        lang="en"
+                        title="Twitter"
+                        alt="Twitter"
+                      ></use>
                     </svg>
                   </a>
                 </li>
                 <li class="item">
-                  <a class="button" href="" aria-label="иконка фейсбук">
+                  <a
+                    class="button"
+                    href=""
+                    rel="noreferrer noopener"
+                    target="_blank"
+                    aria-label="Facebook"
+                  >
                     <svg class="button-icon" wigth="20" height="20">
-                      <use href="./images/sprite.svg#team_facebook"></use>
+                      <use
+                        href="./images/sprite.svg#facebook-team"
+                        lang="en"
+                        title="Facebook"
+                        alt="Facebook"
+                      ></use>
                     </svg>
                   </a>
                 </li>
                 <li class="item">
-                  <a class="button" href="" aria-label="иконка линкедин">
+                  <a
+                    class="button"
+                    href=""
+                    rel="noreferrer noopener"
+                    target="_blank"
+                    aria-label="LinkedIn"
+                  >
                     <svg class="button-icon" wigth="20" height="20">
-                      <use href="./images/sprite.svg#team_linkedin"></use>
+                      <use
+                        href="./images/sprite.svg#linkedin-team"
+                        lang="en"
+                        title="LinkedIn"
+                        alt="LinkedIn"
+                      ></use>
                     </svg>
                   </a>
                 </li>
@@ -306,8 +409,10 @@
             <li class="item">
               <img
                 class="team-photo"
-                src="./images/index/photo-team_marketing.jpg"
-                alt="маркетолог"
+                src="./images/index/section-team/marketing.jpg"
+                lang="en"
+                title="Marketing"
+                alt="Marketing"
                 width="270"
                 height="260"
               />
@@ -315,30 +420,74 @@
               <p lang="en" class="text">Marketing</p>
               <ul class="team-social list">
                 <li class="item">
-                  <a class="button" href="" aria-label="иконка инстаграм">
+                  <a
+                    class="button"
+                    href=""
+                    rel="noreferrer noopener"
+                    target="_blank"
+                    aria-label="Instagram"
+                  >
                     <svg class="button-icon" wigth="20" height="20">
-                      <use href="./images/sprite.svg#team_instagram"></use>
+                      <use
+                        href="./images/sprite.svg#instagram-team"
+                        lang="en"
+                        title="Instagram"
+                        alt="Instagram"
+                      ></use>
                     </svg>
                   </a>
                 </li>
                 <li class="item">
-                  <a class="button" href="" aria-label="иконка твиттер">
+                  <a
+                    class="button"
+                    href=""
+                    rel="noreferrer noopener"
+                    target="_blank"
+                    aria-label="Twitter"
+                  >
                     <svg class="button-icon" wigth="20" height="20">
-                      <use href="./images/sprite.svg#team_twitter"></use>
+                      <use
+                        href="./images/sprite.svg#twitter-team"
+                        lang="en"
+                        title="Twitter"
+                        alt="Twitter"
+                      ></use>
                     </svg>
                   </a>
                 </li>
                 <li class="item">
-                  <a class="button" href="" aria-label="иконка фейсбук">
+                  <a
+                    class="button"
+                    href=""
+                    rel="noreferrer noopener"
+                    target="_blank"
+                    aria-label="Facebook"
+                  >
                     <svg class="button-icon" wigth="20" height="20">
-                      <use href="./images/sprite.svg#team_facebook"></use>
+                      <use
+                        href="./images/sprite.svg#facebook-team"
+                        lang="en"
+                        title="Facebook"
+                        alt="Facebook"
+                      ></use>
                     </svg>
                   </a>
                 </li>
                 <li class="item">
-                  <a class="button" href="" aria-label="иконка линкедин">
+                  <a
+                    class="button"
+                    href=""
+                    rel="noreferrer noopener"
+                    target="_blank"
+                    aria-label="LinkedIn"
+                  >
                     <svg class="button-icon" wigth="20" height="20">
-                      <use href="./images/sprite.svg#team_linkedin"></use>
+                      <use
+                        href="./images/sprite.svg#linkedin-team"
+                        lang="en"
+                        title="LinkedIn"
+                        alt="LinkedIn"
+                      ></use>
                     </svg>
                   </a>
                 </li>
@@ -347,8 +496,10 @@
             <li class="item">
               <img
                 class="team-photo"
-                src="./images/index/photo-team_ui-designer.jpg"
-                alt="юи дизайнер"
+                src="./images/index/section-team/ui-designer.jpg"
+                lang="en"
+                title="UI Designer"
+                alt="UI Designer"
                 width="270"
                 height="260"
               />
@@ -356,30 +507,74 @@
               <p lang="en" class="text">UI Designer</p>
               <ul class="team-social list">
                 <li class="item">
-                  <a class="button" href="" aria-label="иконка инстаграм">
+                  <a
+                    class="button"
+                    href=""
+                    rel="noreferrer noopener"
+                    target="_blank"
+                    aria-label="Instagram"
+                  >
                     <svg class="button-icon" wigth="20" height="20">
-                      <use href="./images/sprite.svg#team_instagram"></use>
+                      <use
+                        href="./images/sprite.svg#instagram"
+                        lang="en"
+                        title="Instagram"
+                        alt="Instagram"
+                      ></use>
                     </svg>
                   </a>
                 </li>
                 <li class="item">
-                  <a class="button" href="" aria-label="иконка твиттер">
+                  <a
+                    class="button"
+                    href=""
+                    rel="noreferrer noopener"
+                    target="_blank"
+                    aria-label="Twitter"
+                  >
                     <svg class="button-icon" wigth="20" height="20">
-                      <use href="./images/sprite.svg#team_twitter"></use>
+                      <use
+                        href="./images/sprite.svg#twitter-team"
+                        lang="en"
+                        title="Twitter"
+                        alt="Twitter"
+                      ></use>
                     </svg>
                   </a>
                 </li>
                 <li class="item">
-                  <a class="button" href="" aria-label="иконка фейсбук">
+                  <a
+                    class="button"
+                    href=""
+                    rel="noreferrer noopener"
+                    target="_blank"
+                    aria-label="Facebook"
+                  >
                     <svg class="button-icon" wigth="20" height="20">
-                      <use href="./images/sprite.svg#team_facebook"></use>
+                      <use
+                        href="./images/sprite.svg#facebook-team"
+                        lang="en"
+                        title="Facebook"
+                        alt="Facebook"
+                      ></use>
                     </svg>
                   </a>
                 </li>
                 <li class="item">
-                  <a class="button" href="" aria-label="иконка линкедин">
+                  <a
+                    class="button"
+                    href=""
+                    rel="noreferrer noopener"
+                    target="_blank"
+                    aria-label="LinkedIn"
+                  >
                     <svg class="button-icon" wigth="20" height="20">
-                      <use href="./images/sprite.svg#team_linkedin"></use>
+                      <use
+                        href="./images/sprite.svg#linkedin-team"
+                        lang="en"
+                        title="LinkedIn"
+                        alt="LinkedIn"
+                      ></use>
                     </svg>
                   </a>
                 </li>
@@ -388,52 +583,106 @@
           </ul>
         </div>
       </section>
-
-      <!-- Clients -->
-
+      <!-- section-clients -->
       <section class="section">
         <div class="container">
           <h2 class="section-title">Постоянные клиенты</h2>
           <ul class="clients-list list">
             <li class="item">
-              <a class="button" href="">
+              <a
+                class="button"
+                href=""
+                rel="noreferrer noopener"
+                target="_blank"
+              >
                 <svg class="button-icon" width="45" height="49">
-                  <use href="./images/sprite.svg#logo-client_01"></use>
+                  <use
+                    href="./images/sprite.svg#ya-co"
+                    lang="en"
+                    title="YA & CO"
+                    alt="Логотип компании YA & CO"
+                  ></use>
                 </svg>
               </a>
             </li>
             <li class="item">
-              <a class="button" href="">
+              <a
+                class="button"
+                href=""
+                rel="noreferrer noopener"
+                target="_blank"
+              >
                 <svg class="button-icon" width="40" height="52">
-                  <use href="./images/sprite.svg#logo-client_02"></use>
+                  <use
+                    href="./images/sprite.svg#company-tagline-here"
+                    lang="en"
+                    title="COMPANY TAGLINE HERE"
+                    alt="Логотип компании COMPANY TAGLINE HERE"
+                  ></use>
                 </svg>
               </a>
             </li>
             <li class="item">
-              <a class="button" href="">
+              <a
+                class="button"
+                href=""
+                rel="noreferrer noopener"
+                target="_blank"
+              >
                 <svg class="button-icon" width="41" height="43">
-                  <use href="./images/sprite.svg#logo-client_03"></use>
+                  <use
+                    href="./images/sprite.svg#company"
+                    lang="en"
+                    lang="en"
+                    title="COMPANY"
+                    alt="Логотип компании COMPANY"
+                  ></use>
                 </svg>
               </a>
             </li>
             <li class="item">
               <a class="button" href="">
                 <svg class="button-icon" width="80" height="42">
-                  <use href="./images/sprite.svg#logo-client_04"></use>
+                  <use
+                    href="./images/sprite.svg#foster-peters"
+                    lang="en"
+                    title="FOSTER PETERS"
+                    alt="Логотип компании FOSTER PETERS"
+                  ></use>
                 </svg>
               </a>
             </li>
             <li class="item">
-              <a class="button" href="">
+              <a
+                class="button"
+                href=""
+                rel="noreferrer noopener"
+                target="_blank"
+              >
                 <svg class="button-icon" width="59" height="47">
-                  <use href="./images/sprite.svg#logo-client_05"></use>
+                  <use
+                    href="./images/sprite.svg#brand"
+                    lang="en"
+                    title="BRAND"
+                    alt="Логотип компании BRAND"
+                  ></use>
                 </svg>
               </a>
             </li>
             <li class="item">
-              <a class="button" href="">
+              <a
+                class="button"
+                href=""
+                rel="noreferrer noopener"
+                target="_blank"
+              >
                 <svg class="button-icon" width="88" height="45">
-                  <use href="./images/sprite.svg#logo-client_06"></use>
+                  <use
+                    href="./images/sprite.svg#company-tag-line"
+                    lang="en"
+                    title="COMPANY TAG LINE"
+                    alt="Логотип компании COMPANY TAG LINE"
+                  ></use>
                 </svg>
               </a>
             </li>
