@@ -909,5 +909,12 @@
     </div>
     <!-- modal-window-order -->
     <script src="./js/modal.js"></script>
+    <!-- header-height-computing -->
+    <script>
+      const { height: pageHeaderHeight } = document
+        .querySelector('.page-header')
+        .getBoundingClientRect();
+      document.body.style.paddingTop = `${pageHeaderHeight}px`;
+    </script>
   </body>
 </html>
