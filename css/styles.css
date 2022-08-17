@@ -406,7 +406,7 @@ img {
   height: 24px;
   margin-left: 10px;
 
-  background-image: url('../images/footer/mailing-icon.svg');
+  background-image: url('../images/subscription.svg');
 }
 
 /* modal */
@@ -591,7 +591,7 @@ img {
 .checkbox-input:checked + .checkbox-icon {
   border-color: transparent;
   background-color: #2196f3;
-  background-image: url('../images/index/icon-checked.svg');
+  background-image: url('../images/mark-check.svg');
   background-size: contain;
   background-origin: border-box;
 }
@@ -932,8 +932,8 @@ img {
 
 .button.filter:hover,
 .button.filter:focus {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
+  color: var(--color-white-primary);
+  background-color: var(--color-accent);
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 3px 1px rgba(0, 0, 0, 0.1);
 }
