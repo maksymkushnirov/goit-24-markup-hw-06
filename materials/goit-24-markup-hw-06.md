@@ -1,13 +1,13 @@
-# goit-24-markup-hw-01
+# goit-24-markup-hw-06
 
-Основи HTML. Частина 1 + Основи HTML. Частина 2
+Розмітка форм + Стилізація форм
 
 Template:\
 https://www.figma.com/file/MXH6NI9ZA8u9GS0fGChENn/Web-Studio?node-id=0%3A1
 
 Task:\
 https://github.com/goitacademy/html-css-homework \
-https://github.com/goitacademy/html-css-homework/blob/master/1-html/README.en.md
+https://github.com/goitacademy/html-css-homework/blob/master/6-forms/README.en.md
 
 **Read in other languages: [Russian](README.md), [Ukrainian](README.ua.md),
 [English](README.en.md), [Spanish](README.es.md), [Polish](README.pl.md).**
