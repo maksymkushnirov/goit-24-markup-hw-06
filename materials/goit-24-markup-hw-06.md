@@ -14,10 +14,10 @@ https://github.com/goitacademy/html-css-homework/blob/master/6-forms/README.en.m
 
 # Homework
 
-- Create a repository `goit-markup-hw-01`.
-- Make HTML markup for the
-  [**homework #1**](https://www.figma.com/file/5vQ5fIsm5p6Mfqhl0Ee2qB/Web-Studio-ENG?node-id=0%3A1)
-  page layout, without CSS styling.
+- Create a repository `goit-markup-hw-06`.
+- Clone the created repository and copy the previous work files into it.
+- Add markup and form design to layout pages of
+  [**homework #6**](https://www.figma.com/file/5vQ5fIsm5p6Mfqhl0Ee2qB/Web-Studio-ENG?node-id=1%3A1821).
 - Set up `GitHub Pages` and add a link to the live page in the header of the
   GitHub repository.
 
@@ -25,57 +25,61 @@ https://github.com/goitacademy/html-css-homework/blob/master/6-forms/README.en.m
 
 ### Project
 
-**`«A1»`** The main HTML file is called `index.html`.
+**`«A1»`** All styles are contained in one `styles.css` file in the `css`
+folder.
 
-**`«A2»`** In the root of the project, there is a folder called `images`, which
-contains images.
+**`«A2»`** Source code is formatted with `Prettier`.
 
-**`«A3»`** There are no capital letters, spaces and transliteration in the file
-names, only English letters and words.
+**`«A3»`** All images and text content are taken from the layout.
 
-**`«A4»`** Source code is formatted with `Prettier`.
+**`«A4»`** All HTML pages have a style normalizer
+[`modern-nomalize`](https://github.com/sindresorhus/modern-normalize).
 
-**`«A5»`** All images and text content are taken from the layout.
-
-**`«A6»`** All raster images are optimized using
-[**squoosh**](https://squoosh.app/).
-
-**`«A7»`** The code is in line with the [**guide**](https://codeguide.co/).
+**`«A5»`** The code is in line with the [**guide**](https://codeguide.co/).
 
 ### Markup
 
-**`«B1»`** The `Studio` page layout is in the `index.html` file.
+**`«B1»`** HTML-markup is done for all layout elements.
 
-**`«B2»`** HTML-markup is done for all layout elements.
+**`«B2»`** Tags are used according to their semantics.
 
-**`«B3»`** Tags are used according to their semantics.
+**`«B3»`** The markup of the newsletter subscription form and all its elements
+in the footer is done.
 
-**`«B4»`** HTML can be validated using
-[**validator**](http://validator.w3.org/nu/) without errors.
+**`«B4»`** The markup of the order form and all its elements in the modal window
+is done.
 
-**`«B5»`** There are tags in the markup for web page structuring: `<header>`,
-`<main>` and `<footer>`.
+**`«B5»`** All inputs in forms have the `name` attribute.
 
-**`«B6»`** The logo in the header and footer is a link with text, not an image.
+**`«B6»`** The values of the `name` attribute are descriptive, describing
+exactly what the form field is used for.
 
-**`«B7»`** The `<nav>` tag is used only once, in the page header.
+**`«B7»`** All inputs have a bound `<label>` element.
 
-**`«B8»`** Contacts in the header (mail and phone) are outside the `<nav>` tag.
+**`«B8»`** The `placeholder` attribute is set on the inputs if there is a hint
+text for it in the layout.
 
-**`«B9»`** The `<h1>` tag is used once per page.
+**`«B9»`** Form "submit" buttons have the `type ="submit"` attribute.
 
-**`«B10»`** An element with the text `"Order a service"` is a button with
-`type ="button"`.
+**`«B10»`** All new form icons are added to the `icons.svg` SVG sprite.
 
-**`«B11»`** Section headings are marked with `<h2>`.
+### Styling
 
-**`«B12»`** All `<img>` tags have size attributes, at least `width`.
+**`«C1»`** The styling of elements of the newsletter subscription form in the
+footer is done.
 
-**`«B13»`** All `<img>` tags have the `alt` attribute, which contains a brief
-description of what is shown in the picture.
+**`«C2»`** The styling of elements of the order form in the modal window is
+done.
 
-**`«B14»`** Images are exported from the layout in `jpg` format.
+**`«C3»`** When an input is in focus, its border and icon change color (as shown
+on the layout).
 
-**`«B15»`** Groups of the same-type elements are in `<ul>` lists.
+**`«C4»`** The original checkbox with acceptance of the license agreement in the
+order form is hidden.
 
-**`«B16»`** The `<address>` tag is only used in the footer.
+**`«C5»`** The checkbox with acceptance of the license agreement is designed
+manually, using a vector checkmark image from the SVG sprite.
+
+**`«C6»`** For all hover and focus effects (color, background, shadow),
+transitions are made. Time is set to `250ms`, and the timing function is
+`cubic-bezier(0.4, 0, 0.2, 1)`.
